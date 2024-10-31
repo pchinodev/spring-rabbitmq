@@ -1,0 +1,17 @@
+# Conversion to YAML from Properties formar report
+# Errors:
+# - Direct assignment 'spring=' can not be combined with sub-property assignment 'spring.application...'. Direct assignment is dropped!
+spring:
+  application:
+    name: spring-boot-consumer
+  rabbitmq:
+    listener:
+      simple:
+        retry:
+          enabled: true
+          initial-interval: 3s
+          max-attempts: 6
+          max-interval: 10s
+          multiplier: 2
+server:
+  port: 8081

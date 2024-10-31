@@ -44,12 +44,6 @@ Thumbs.db
 *~
 *.tmp
 
-# Application properties (sensitive information)
-**/src/main/resources/application.properties
-**/src/main/resources/application.yml
-**/src/main/resources/application-*.properties
-**/src/main/resources/application-*.yml
-
 # Ignore target and build folders within specific directories
 !**/src/main/**/target/
 !**/src/test/**/target/
