@@ -1,0 +1,57 @@
+# Ignore Maven and Gradle build folders
+target/
+build/
+
+# Exclude .mvn folder except for the wrapper JAR
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code files
+.vscode/
+
+# Eclipse/STS files
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# NetBeans files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Logs
+*.log
+logs/
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*~
+*.tmp
+
+# Application properties (sensitive information)
+**/src/main/resources/application.properties
+**/src/main/resources/application.yml
+**/src/main/resources/application-*.properties
+**/src/main/resources/application-*.yml
+
+# Ignore target and build folders within specific directories
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
